@@ -6,21 +6,21 @@ const projects = [
     link:"https://fooddeliverynoman.netlify.app",
     title: "Food Delivery Website",
     description: "A responsive food delivery platform built with React, Tailwind CSS, and Framer Motion. Features smooth animations and real-time search.",
-    image: "./project1.png",
+    image: "./project1.webp",
   },
   {
     id: 2,
     title: "Earbuds Landing Page",
-    link:"https://earbudnoman.netlify.app",
+    link:"https://earbudnoman.netlify.appgit",
     description: "A high-converting landing page for premium earbuds. Built with React, Tailwind CSS, and Framer Motion for dynamic animations.",
-    image: "./project2.png",
+    image: "./project2.webp",
   },
   {
     id: 3,
     title: "Gym & Fitness Website",
     link:"https://gymnoman.netlify.app",
     description: "A dynamic gym website designed with React, Tailwind CSS, and Framer Motion. Includes class scheduling and interactive design.",
-    image: "./project3.png",
+    image: "./project3.webp",
   }
 ];
 

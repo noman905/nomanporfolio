@@ -19,7 +19,7 @@ export const MyStory = () => {
           transition={{ duration: 1 }}
         >
           <img 
-            src="./noman.png" 
+            src="./noman.webp" 
             alt="Noman Afzal" 
             className="w-full h-full object-cover"
           />

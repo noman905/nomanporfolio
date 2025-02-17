@@ -20,8 +20,8 @@ export const About = () => {
       <div className="flex flex-col md:flex-col lg:flex-row items-center gap-10 justify-evenly w-full max-w-6xl">
         {/* Profile Image (Lazy Loading and Reduced Repaint Triggers) */}
         <motion.img
-          src="./noman.png" // Ensure image is optimized for web (smaller size)
-          loading="lazy"
+          src="./noman.webp" 
+          
           className="h-[240px] w-[240px] sm:h-[300px] sm:w-[300px] md:h-[310px] md:w-[310px] rounded-full shadow-lg"
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
