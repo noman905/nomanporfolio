@@ -11,7 +11,7 @@ const projects = [
   {
     id: 2,
     title: "Earbuds Landing Page",
-    link:"https://earbudnoman.netlify.appgit",
+    link:"https://earbudnoman.netlify.app",
     description: "A high-converting landing page for premium earbuds. Built with React, Tailwind CSS, and Framer Motion for dynamic animations.",
     image: "./project2.webp",
   },
