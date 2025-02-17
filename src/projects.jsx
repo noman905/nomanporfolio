@@ -33,7 +33,10 @@ export const Projects = () => {
       
       <div className="flex flex-wrap justify-center gap-8">
         {projects.map((project) => (
-          <a href={project.link}>
+           <a href={project.link}
+           
+           target="_blank" rel="noopener noreferrer"
+         >
           <div
             key={project.id}
             className="bg-black text-[#e5e7eb] p-2 rounded-lg border-2 border-[#e5e7eb] shadow-lg w-[300px] hover:scale-105 transition-all hover:shadow-2xl transform"
@@ -45,12 +48,13 @@ export const Projects = () => {
             />
             <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
             <p className="text-sm mb-4">{project.description}</p>
-            
+            <button
+             
               className="text-[#1de5a2f4] hover:underline"
-              target="_blank" rel="noopener noreferrer"
-            
+              
+            >
               View Project
-           
+              </button>
           </div>
           </a>
         ))}
