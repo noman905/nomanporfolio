@@ -55,15 +55,7 @@ export const Projects = () => {
         ))}
       </div>
 
-      {/* Button with White Border */}
-      <div className="flex justify-center mt-10">
-        <a
-          href="#"
-          className="inline-block bg-transparent border-2 border-[#e5e7eb] text-[#e5e7eb] px-6 py-3 rounded-full text-lg hover:bg-[#dddcdc] hover:text-black transition-all duration-300 transform"
-        >
-          See More Projects
-        </a>
-      </div>
+    
     </section>
   );
 };

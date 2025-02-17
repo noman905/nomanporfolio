@@ -36,7 +36,7 @@ export const Footer = () => {
         {/* Copyright */}
         <div className="mt-8 border-t border-[#1de5a2] pt-4 text-center">
           <p className="text-sm text-white hover:text-[#1de5a2] transition duration-300 ease-in-out">
-            &copy; {new Date().getFullYear()} Your Brand. All rights reserved.
+            &copy; {new Date().getFullYear()} NOMAN AFZAL. All rights reserved.
           </p>
         </div>
       </div>

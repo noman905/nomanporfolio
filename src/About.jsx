@@ -43,7 +43,7 @@ export const About = () => {
             FRONTEND DEVELOPER
           </h2>
 
-          <p className="text-[#eee7e7] text-lg font-bold text-center sm:text-lg md:text-lg lg:text-[1.125rem] lg:text-start lg:ml-[48px] leading-relaxed lg:mt-6">
+          <p className="text-[#eee7e7]   text-lg font-bold  sm:text-lg md:text-lg lg:text-[1.125rem] lg:text-start lg:ml-[48px] leading-relaxed lg:mt-6">
             I am Noman Afzal, a front-end developer. I create modern, responsive, and user-friendly websites that enhance user experience. My focus is on delivering <span className="text-[#1de5a2f4]"> high-quality web solutions that meet client needs. Let’s work together to build something amazing!</span>
           </p>
 
