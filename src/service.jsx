@@ -33,9 +33,9 @@ export const Services = () => {
         
         <div className="flex flex-wrap justify-center gap-12">
           {services.map((service, index) => (
-            <div key={index} className="bg-black border-2 border-white p-8 rounded-lg shadow-lg text-center transition transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out w-[95%] sm:w-80 lg:w-96 flex flex-col">
+            <div key={index} className="bg-black border-2 border-white p-4 rounded-lg shadow-lg text-center transition transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out w-[96%] sm:w-80 lg:w-96 flex flex-col">
               <h3 className="text-2xl font-semibold text-[#1de5a2] mb-4">{service.title}</h3>
-              <p className="text-[#ebebeb] m-auto text-justify  mb-4 ">{service.description}</p>
+              <p className="text-[#ebebeb]    mb-4 ">{service.description}</p>
               <ul className="text-[#ebebeb] mb-4">
                 {service.skills.map((skill, idx) => (
                   <li key={idx} className="mb-2">{skill}</li>
