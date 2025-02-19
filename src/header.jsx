@@ -13,7 +13,7 @@ export const Header = () => {
         {/* Logo Section */}
         <div className="flex gap-3 items-center">
           
-          <h1 className="text-[16px] text-[#fff] md:text-[27px] font-extrabold hover:text-green-400 ">NOMAN AFZAL</h1>
+          <h1 className="text-[16px] text-[#dedede] md:text-[27px] font-extrabold hover:text-green-400 ">NOMAN AFZAL</h1>
         </div>
 
         {/* Desktop Menu */}

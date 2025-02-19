@@ -30,7 +30,7 @@ export const Hero = () => {
       </motion.h1>
 
       <motion.p
-        className="font-inter text-[#e3e3e3] text-[16px] sm:text-[15px] md:text-[20px] m-auto max-w-[90%] sm:max-w-[80%]"
+        className="font-inter text-[#dedede] text-[16px] sm:text-[15px] md:text-[20px] m-auto max-w-[90%] sm:max-w-[80%]"
         initial={{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.2 }}
