@@ -6,6 +6,7 @@ import { Footer } from "./footer";
 import { Header } from "./header";
 import { App } from "./App";
 import { ContactForm } from "./contact";
+import { Calendly } from "./calendly";
 
 
 export const Routers=(()=>{
@@ -47,7 +48,11 @@ export const Routers=(()=>{
                 path:"/contact",
                 element:<ContactForm />,
                 
-              }
+              } ,
+              {
+                path: "/book-call", // New route for Calendly booking
+                element: <Calendly />
+             }
   
 
         ]

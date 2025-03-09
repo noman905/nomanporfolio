@@ -58,7 +58,7 @@ export const Hero = () => {
           aria-label="Hire me"
           style={{ willChange: 'transform' }}
         >
-          <span className="relative text-[21px] z-10 whitespace-nowrap">Hire me</span> 
+        <NavLink to="/book-call">  <span className="relative text-[21px] z-10 whitespace-nowrap">Hire me</span> </NavLink>
 
           <motion.div
             className="absolute inset-0 border-2 border-[#1de5a2f4] rounded-2xl"
